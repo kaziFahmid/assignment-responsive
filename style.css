@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  list-style-type: none;
+}
+/* header banner and navbar area */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 63px;
+  margin-right: 252px;
+}
+.logo {
+  margin-top: 63px;
+  margin-left: 216px;
+}
+header {
+  background-color: #fff4e7;
+  padding-bottom: 45px;
+}
+.banner-text {
+  text-align: center;
+  margin-top: 205px;
+}
+.banner-text h1 {
+  font-size: 64px;
+}
+.banner-text p {
+  margin-top: 28px;
+}
+.img img {
+  width: 100%;
+}
+.img {
+  width: 80%;
+  margin: auto;
+  margin-top: 147px;
+}
+/* header banner and navbar area End */
+/* Quick list of Our Features */
+.fauture-img {
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+  margin-top: 85px;
+}
+
+.quick-feature {
+  display: flex;
+  gap: 73px;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-quick-text {
+  margin-right: 90px;
+}
+.feature-quick-text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.feature-quick-text p {
+  line-height: 26px;
+}
+.feature-quick-text button {
+  margin-top: 32px;
+  width: 180px;
+  height: 64px;
+  background-color: #ff900e;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+}
+.quick {
+  color: #727272;
+}
+.feature {
+  color: #ff900e;
+}
+.feature-quick-text p {
+  color: #727272;
+}
+/* Quick list of Our Features END */
+/* feaure */
+.feature-will-you {
+  width: 586px;
+
+  margin-left: 100px;
+}
+.feature-will-you h1 {
+  font-size: 40px;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.feature-will-you p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 24px;
+  background-color: white;
+}
+.feature-area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+  gap: 54px;
+}
+.feature-img img {
+  width: 100%;
+}
+.feature-img {
+  width: 800px;
+  height: 982px;
+  margin-right: 100px;
+  position: relative;
+}
+.feature-text {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+.feature-text-box {
+  width: 586px;
+  height: 171px;
+  margin-left: 100px;
+  background-color: white;
+  box-shadow: 0px 4px 30px #72727218;
+}
+.feature-text-box h4 {
+  margin: 0px 30px;
+  margin-top: 30px;
+}
+.feature-text-box p {
+  margin: 0px 30px;
+  margin-top: 10px;
+}
+.years {
+  width: 342px;
+  height: 200px;
+  background-color: #ff900e;
+  position: absolute;
+  bottom: 130px;
+  right: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  border-radius: 8px;
+}
+.years h1 {
+  font-size: 65px;
+  font-weight: 700;
+
+  margin-bottom: 5px;
+}
+/* feaure end */
+/* some facts */
+.fact-box {
+  display: grid;
+
+  grid-template-columns: repeat(4, 241px);
+  grid-template-rows: repeat(1, 241px);
+  gap: 60px;
+  justify-content: center;
+  margin-top: 100px;
+}
+.some-facts {
+  margin-top: 130px;
+}
+
+.some-facts p {
+  margin-left: 100px;
+}
+.Facts {
+  margin-left: 100px;
+}
+.fact-box div {
+  border: 1px solid#FF900E;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.5s;
+}
+.fact-box div:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  border: 3px solid#FF900E;
+}
+
+/* some facts ends */
+/* sponsors */
+.sponsors {
+  margin-top: 180px;
+  text-align: center;
+}
+.brands {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0px 100px;
+  gap: 70px;
+  margin-top: 50px;
+}
+.sponsors h1 {
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.sponsors p {
+  font-size: 16px;
+  line-height: 26px;
+}
+/* sponsors end */
+
+/* reviews */
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 100px;
+  gap: 20px;
+  margin-top: 100px;
+}
+.Reviews-client {
+  text-align: center;
+  font-size: 40px;
+}
+.Review {
+  margin-top: 120px;
+}
+/* reviewsend */
+/* footer */
+.footer-area {
+  background-color: #fff4e7;
+  text-align: center;
+  padding: 39px;
+  margin: 0px 100px;
+  margin-top: 130px;
+}
+
+/* footer end */
+
+/* ------------media querry----------responsive----------- */
+@media screen and (max-width: 576px) {
+  /* header nav and logo banner area */
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin-left: 0px;
+  }
+  .nav-list {
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  /* header nav and logo banner area end */
+  /* quick-feature*/
+  .quick-feature {
+    flex-direction: column;
+  }
+  .fauture-img {
+    margin-left: 0px;
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-quick-text {
+    text-align: center;
+    margin: 0px 0px;
+  }
+  /* quick-feature end*/
+
+  /* Features you will love & enjoy */
+  .feature-area {
+    flex-direction: column;
+  }
+  .feature-text-box {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .feature-will-you {
+    width: 100%;
+
+    margin-left: 0px;
+  }
+
+  .feature-img {
+    width: 100%;
+    height: 982px;
+    margin-right: 100px;
+    position: relative;
+  }
+  .years {
+    margin: auto;
+    position: static;
+  }
+  /* Features you will love & enjoy end */
+  /* facts */
+  .Facts {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .some-facts p {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .fact-box {
+    grid-template-columns: repeat(1, 241px);
+    grid-template-rows: repeat(4, 241px);
+    gap: 30px;
+  }
+  /* facts end */
+  /* sponsors */
+  .brands {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px 100px;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  /* sponsores end */
+  /* reviews */
+  .reviews {
+    flex-direction: column;
+
+    margin: 0 0px;
+    gap: 60px;
+  }
+
+  /* reviews end */
+  /* footer */
+  .footer-area {
+    margin: 60px 0px;
+  }
+  /* footer end */
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* header nav and logo banner area */
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin-left: 0px;
+  }
+  .nav-list {
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  /* header nav and logo banner area end */
+  /* quick-feature*/
+  .quick-feature {
+    flex-direction: column;
+  }
+  .fauture-img {
+    margin-left: 0px;
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-quick-text {
+    text-align: center;
+    margin: 0px 0px;
+  }
+  /* quick-feature end*/
+
+  /* Features you will love & enjoy */
+  .feature-area {
+    flex-direction: column;
+  }
+  .feature-text-box {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .feature-will-you {
+    width: 100%;
+
+    margin-left: 0px;
+  }
+
+  .feature-img {
+    width: 100%;
+    height: 982px;
+    margin-right: 100px;
+    position: relative;
+  }
+  .years {
+    margin: auto;
+    position: static;
+  }
+  /* Features you will love & enjoy end */
+  /* facts */
+  .Facts {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .some-facts {
+    margin-top: 400px;
+  }
+  .some-facts p {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .fact-box {
+    grid-template-columns: repeat(1, 241px);
+    grid-template-rows: repeat(4, 241px);
+    gap: 30px;
+  }
+  /* facts end */
+  /* sponsors */
+  .brands {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px 100px;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  /* sponsores end */
+  /* reviews */
+  .reviews {
+    flex-direction: column;
+
+    margin: 0 0px;
+    gap: 60px;
+  }
+
+  /* reviews end */
+  /* footer */
+  .footer-area {
+    margin: 60px 0px;
+  }
+  /* footer end */
+}
+
+/* -----------MEDIA QUERRY END-------------- */
