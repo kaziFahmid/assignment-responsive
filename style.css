@@ -38,6 +38,16 @@ header {
 .banner-text p {
   margin-top: 28px;
 }
+.explore-btn-header{
+  margin-top: 32px;
+  width: 180px;
+  height: 64px;
+  background-color: #ff900e;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+}
 .img img {
   width: 100%;
 }
@@ -254,194 +264,211 @@ header {
 
 /* footer end */
 
+
+
 /* ------------media querry----------responsive----------- */
-@media screen and (max-width: 576px) {
-  /* header nav and logo banner area */
-  nav {
-    flex-direction: column;
-  }
-  .logo {
-    margin-left: 0px;
-  }
-  .nav-list {
-    flex-direction: column;
-    margin-right: 0px;
-  }
-  /* header nav and logo banner area end */
-  /* quick-feature*/
-  .quick-feature {
-    flex-direction: column;
-  }
-  .fauture-img {
-    margin-left: 0px;
+@media screen and (max-width:576px) {
+    /* header nav and logo banner area */
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    .nav-list{
+        flex-direction: column;
+        margin-right: 0px;
+    }
+        /* header nav and logo banner area end */
+            /* quick-feature*/
+            .quick-feature{
+                flex-direction: column;
+            }
+            .fauture-img {
+                margin-left: 0px;
+               
+                grid-template-columns: repeat(1, 1fr);
+              
+              }
+              .feature-quick-text{
+                text-align: center;
+                margin: 0px 0px;
+              }
+             /* quick-feature end*/
 
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .feature-quick-text {
-    text-align: center;
-    margin: 0px 0px;
-  }
-  /* quick-feature end*/
-
-  /* Features you will love & enjoy */
-  .feature-area {
-    flex-direction: column;
-  }
-  .feature-text-box {
-    margin-left: 0px;
-    width: 100%;
-  }
-  .feature-will-you {
-    width: 100%;
-
-    margin-left: 0px;
-  }
-
-  .feature-img {
-    width: 100%;
-    height: 982px;
-    margin-right: 100px;
-    position: relative;
-  }
-  .years {
-    margin: auto;
-    position: static;
-  }
-  /* Features you will love & enjoy end */
-  /* facts */
-  .Facts {
-    margin-left: 0px;
-    text-align: center;
-  }
-  .some-facts p {
-    margin-left: 0px;
-    text-align: center;
-  }
-  .fact-box {
-    grid-template-columns: repeat(1, 241px);
-    grid-template-rows: repeat(4, 241px);
-    gap: 30px;
-  }
-  /* facts end */
-  /* sponsors */
-  .brands {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0px 100px;
-    gap: 30px;
-    margin-top: 20px;
-  }
-  /* sponsores end */
-  /* reviews */
-  .reviews {
-    flex-direction: column;
-
-    margin: 0 0px;
-    gap: 60px;
-  }
-
-  /* reviews end */
-  /* footer */
-  .footer-area {
-    margin: 60px 0px;
-  }
-  /* footer end */
+             /* Features you will love & enjoy */
+             .feature-area{
+                flex-direction: column;
+             }
+             .feature-text-box{
+                margin-left: 0px;
+                width: 100%;
+             }
+             .feature-will-you {
+                width: 100%;
+                
+                margin-left: 0px;
+            }
+           
+            .feature-img {
+                width: 100%;
+                height: 982px;
+                margin-right: 100px;
+                position: relative;
+            }
+            .years {
+                margin: auto;
+                position: static;
+               
+            }
+             /* Features you will love & enjoy end */
+             /* facts */
+             .Facts {
+                margin-left: 0px;
+                text-align: center;
+            }
+            .some-facts p {
+                margin-left: 0px;
+                text-align: center;
+            }
+            .fact-box {
+               
+                grid-template-columns: repeat(1, 241px);
+                grid-template-rows: repeat(4, 241px);
+                gap: 30px;
+               
+            }
+             /* facts end */
+             /* sponsors */
+             .brands {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                margin: 0px 100px;
+                gap: 30px;
+                margin-top: 20px;
+            }
+             /* sponsores end */
+             /* reviews */
+             .reviews {
+           
+                flex-direction: column;
+              
+                margin: 0 0px;
+                gap: 60px;
+               
+            }
+           
+             /* reviews end */
+             /* footer */
+             .footer-area{
+                margin: 60px 0px;
+             }
+             /* footer end */
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  /* header nav and logo banner area */
-  nav {
-    flex-direction: column;
-  }
-  .logo {
-    margin-left: 0px;
-  }
-  .nav-list {
-    flex-direction: column;
-    margin-right: 0px;
-  }
-  /* header nav and logo banner area end */
-  /* quick-feature*/
-  .quick-feature {
-    flex-direction: column;
-  }
-  .fauture-img {
-    margin-left: 0px;
 
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .feature-quick-text {
-    text-align: center;
-    margin: 0px 0px;
-  }
-  /* quick-feature end*/
 
-  /* Features you will love & enjoy */
-  .feature-area {
-    flex-direction: column;
-  }
-  .feature-text-box {
-    margin-left: 0px;
-    width: 100%;
-  }
-  .feature-will-you {
-    width: 100%;
 
-    margin-left: 0px;
-  }
+@media screen and (min-width:577px) and (max-width:768px) {
+    /* header nav and logo banner area */
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    .nav-list{
+        flex-direction: column;
+        margin-right: 0px;
+    }
+        /* header nav and logo banner area end */
+            /* quick-feature*/
+            .quick-feature{
+                flex-direction: column;
+            }
+            .fauture-img {
+                margin-left: 0px;
+               
+                grid-template-columns: repeat(1, 1fr);
+              
+              }
+              .feature-quick-text{
+                text-align: center;
+                margin: 0px 0px;
+              }
+             /* quick-feature end*/
 
-  .feature-img {
-    width: 100%;
-    height: 982px;
-    margin-right: 100px;
-    position: relative;
-  }
-  .years {
-    margin: auto;
-    position: static;
-  }
-  /* Features you will love & enjoy end */
-  /* facts */
-  .Facts {
-    margin-left: 0px;
-    text-align: center;
-  }
-  .some-facts {
-    margin-top: 400px;
-  }
-  .some-facts p {
-    margin-left: 0px;
-    text-align: center;
-  }
-  .fact-box {
-    grid-template-columns: repeat(1, 241px);
-    grid-template-rows: repeat(4, 241px);
-    gap: 30px;
-  }
-  /* facts end */
-  /* sponsors */
-  .brands {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0px 100px;
-    gap: 30px;
-    margin-top: 20px;
-  }
-  /* sponsores end */
-  /* reviews */
-  .reviews {
-    flex-direction: column;
-
-    margin: 0 0px;
-    gap: 60px;
-  }
-
-  /* reviews end */
-  /* footer */
-  .footer-area {
-    margin: 60px 0px;
-  }
-  /* footer end */
+             /* Features you will love & enjoy */
+             .feature-area{
+                flex-direction: column;
+             }
+             .feature-text-box{
+                margin-left: 0px;
+                width: 100%;
+             }
+             .feature-will-you {
+                width: 100%;
+                
+                margin-left: 0px;
+            }
+           
+            .feature-img {
+                width: 100%;
+                height: 982px;
+                margin-right: 100px;
+                position: relative;
+            }
+            .years {
+                margin: auto;
+                position: static;
+               
+            }
+             /* Features you will love & enjoy end */
+             /* facts */
+             .Facts {
+                margin-left: 0px;
+                text-align: center;
+            }
+            .some-facts{
+                margin-top: 400px;
+            }
+            .some-facts p {
+                margin-left: 0px;
+                text-align: center;
+            }
+            .fact-box {
+               
+                grid-template-columns: repeat(1, 241px);
+                grid-template-rows: repeat(4, 241px);
+                gap: 30px;
+               
+            }
+             /* facts end */
+             /* sponsors */
+             .brands {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                margin: 0px 100px;
+                gap: 30px;
+                margin-top: 20px;
+            }
+             /* sponsores end */
+             /* reviews */
+             .reviews {
+           
+                flex-direction: column;
+              
+                margin: 0 0px;
+                gap: 60px;
+               
+            }
+           
+             /* reviews end */
+             /* footer */
+             .footer-area{
+                margin: 60px 0px;
+             }
+             /* footer end */
 }
 
 /* -----------MEDIA QUERRY END-------------- */
